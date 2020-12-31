@@ -34,13 +34,13 @@ a:hover {
     flex-direction: column;
     margin: auto;
     padding: 1.5rem;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 @media (min-width: 701px) {
     .wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         max-width: 1342px;
         min-height: 715px;
         margin: auto;
@@ -48,11 +48,10 @@ a:hover {
     }
     .wrapper .nav-bar {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-self: flex-start;
         position: absolute;
-        margin-left: ;
     }
 }
 
@@ -72,6 +71,13 @@ a:hover {
         align-self: center;
         max-width: 350px;
         border: none;
+        margin: auto;
+    }
+    .container {
+        margin-top: 10px;
+    }
+    img {
+        max-width: 400px;
     }
     li {
         display: inline;
@@ -79,3 +85,29 @@ a:hover {
         font-size: 24px;
     }
 }
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
