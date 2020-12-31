@@ -86,28 +86,30 @@ a:hover {
     }
 }
 
-#customers {
+#publish-list {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
-#customers td, #customers th {
+#publish-list td, #publish-list th {
     border: 1px solid #ddd;
     padding: 8px;
 }
 
-#customers tr:nth-child(even) {
+#publish-list tr:nth-child(even) {
     background-color: #f2f2f2;
 }
 
-#customers tr:hover {
+#publish-list tr:hover {
     background-color: #ddd;
+    transition: ease-in 0.3s;
+
 }
 
-#customers th {
+#publish-list th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
+    background-color: #3f3f3f;
     color: white;
