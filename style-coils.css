@@ -14,14 +14,6 @@ a:hover {
     scale: 20px;
 }
 
-.nav-bar {
-    max-width: 125px;
-    border-right: black 2px solid;
-    border-bottom: black 2px solid;
-    margin: auto;
-    padding: 1em;
-}
-
 .menu li {
     padding: 3px;
 }
@@ -52,6 +44,11 @@ a:hover {
         justify-content: center;
         align-self: flex-start;
         position: absolute;
+        max-width: 125px;
+        border-right: black 2px solid;
+        border-bottom: black 2px solid;
+        margin: auto;
+        padding: 1em;
     }
 }
 
@@ -65,11 +62,11 @@ a:hover {
         justify-content: center;
         align-self: center;
         max-width: 350px;
-        border: none;
+        margin: auto;
     }
     li {
         display: inline;
         margin: auto;
-        font-size: 24px;
+        font-size: 20px;
     }
 }

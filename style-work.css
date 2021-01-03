@@ -14,14 +14,6 @@ a:hover {
     scale: 20px;
 }
 
-.nav-bar {
-    max-width: 125px;
-    border-right: black 2px solid;
-    border-bottom: black 2px solid;
-    margin: auto;
-    padding: 1em;
-}
-
 .menu li {
     padding: 3px;
 }
@@ -38,6 +30,13 @@ a:hover {
 }
 
 @media (min-width: 701px) {
+    .nav-bar {
+        max-width: 125px;
+        border-right: black 2px solid;
+        border-bottom: black 2px solid;
+        margin: auto;
+        padding: 1em;
+    }
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -104,7 +103,6 @@ a:hover {
 #publish-list tr:hover {
     background-color: #ddd;
     transition: ease-in 0.3s;
-
 }
 
 #publish-list th {
